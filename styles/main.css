@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 15px;
+  padding: 5rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body header {
+  margin-bottom: 2rem;
+}
+body main {
+  max-width: 1100px;
+  margin-bottom: 5em;
+}
+body main h1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+body main section .heading {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 4.5em;
+}
+body main section .heading h2 {
+  font-size: calc(15px + 1.5em);
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 0.5em;
+}
+body main section .heading h2 span {
+  font-weight: 600;
+}
+body main section .heading p {
+  color: hsl(229, 6%, 66%);
+  max-width: 500px;
+}
+body main section .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 30px;
+  min-height: 545px;
+}
+body main section .cards .card {
+  box-shadow: 0 15px 20px rgba(89, 124, 201, 0.2);
+  border-top: 5px solid hsl(180, 62%, 55%);
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 2em 3em 2em 2em;
+  position: relative;
+}
+body main section .cards .card h3 {
+  color: hsl(234, 12%, 34%);
+  font-size: calc(15px + 0.35em);
+  margin-bottom: 0.5em;
+}
+body main section .cards .card p {
+  color: hsl(229, 6%, 66%);
+  font-size: calc(15px - 0.1em);
+  line-height: 2;
+}
+body main section .cards .card img {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+body main section .cards .card:nth-child(1) {
+  grid-area: 2/1/span 2/2;
+}
+body main section .cards .card:nth-child(2) {
+  border-color: hsl(0, 78%, 62%);
+  grid-area: 1/2/span 2/3;
+}
+body main section .cards .card:nth-child(3) {
+  border-color: hsl(34, 97%, 64%);
+  grid-area: 3/2/span 2/3;
+}
+body main section .cards .card:nth-child(4) {
+  grid-area: 2/3/span 2/4;
+  border-color: hsl(212, 86%, 64%);
+}
+@media only screen and (max-width: 830px) {
+  body {
+    padding: 5rem 2rem;
+  }
+  body main section .heading h2 {
+    font-size: calc(15px + 0.5em);
+  }
+  body main section .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  body main section .cards .card {
+    min-height: 225px;
+    padding: 1.5em 2em;
+  }
+  body main section .cards .card h3 {
+    margin-bottom: 0.25em;
+  }
+  body main section .cards .card p {
+    font-size: calc(15px - 0.15em);
+  }
+  body main section .cards .card img {
+    width: 57px;
+  }
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.2;
+  padding: 20px;
+  width: 100%;
+  font-weight: 400;
+}
+
+footer a {
+  color: hsl(212, 86%, 64%);
+}/*# sourceMappingURL=main.css.map */
