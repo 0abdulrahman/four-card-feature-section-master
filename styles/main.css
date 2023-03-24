@@ -25,6 +25,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: hsl(0, 0%, 98%);
 }
 body header {
   margin-bottom: 2rem;

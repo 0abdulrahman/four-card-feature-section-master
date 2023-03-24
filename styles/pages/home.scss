@@ -9,6 +9,7 @@ body {
   padding: 5rem 3rem;
   @include center;
   flex-direction: column;
+  background-color: $very_light_gray;
   header {
     margin-bottom: 2rem;
   }
