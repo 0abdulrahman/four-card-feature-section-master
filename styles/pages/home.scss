@@ -54,14 +54,15 @@ body {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
         gap: 30px;
-        min-height: 545px;
+        min-height: 535px;
         .card {
           box-shadow: 0 15px 20px $blue_shadow;
-          border-top: 5px solid $cyan;
+          border-top: 4px solid $cyan;
           border-radius: 5px;
           overflow: hidden;
           padding: 2em 3em 2em 2em;
           position: relative;
+          background-color: $white;
           h3 {
             color: $very_dark_blue;
             font-size: calc($font-size + 0.35em);

@@ -1,22 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
 body {
   min-height: 100vh;
   font-size: 15px;
@@ -149,4 +130,4 @@ footer {
 
 footer a {
   color: hsl(212, 86%, 64%);
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=home.css.map */
